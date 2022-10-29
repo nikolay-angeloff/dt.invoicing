@@ -1,0 +1,1 @@
+npx openapi-generator-cli generate -i ../invoicing-api-spec/src/main/resources/invoice.yml -o src/generated-sources/openapi -g typescript-axios --additional-properties=supportsES6=true,npmVersion=6.9.0,typescriptThreePlus=true
